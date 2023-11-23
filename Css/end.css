@@ -1,0 +1,21 @@
+.name--asker {
+    margin: 5rem auto 2rem;
+    font-size: 1.2rem;
+}
+
+#name-input {
+    width: 20%;
+    margin: 0 auto;
+    height: 2rem;
+    border-radius: 0.5rem;
+    outline:  none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.action--btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -38,3 +38,18 @@
     transform: scale(1.1);
 
 }
+
+.action {
+
+    background-color: var(--color-secondary);
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+    color: var(--color-white_used);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+
+}
