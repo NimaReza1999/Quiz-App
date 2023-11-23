@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --color-background: #1C1C1C;
+    --color-primary: #3EB8D4;
+    --color-bg_lighter: #323232;
+    --color-white_used: #FCFCFC;
+    --color-red: #FF5341;
+
+}
+
+
+body {
+
+    font-size: 62.5%;
+    background-color: var(--color-background);
+    color: #3EB8D4;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem auto;
+    font-family: 'Comic Sans Ms';
+    font-size: 2rem;
+
+}
+
+a, 
+button {
+    all: unset;
+}
