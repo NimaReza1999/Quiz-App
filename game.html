@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/global.css">
+    <link rel="stylesheet" href="./Css/game.css">
     <title>Nima Reza | Quiz App</title>
 </head>
 <body>
-    
+    <span class="loader"></span>
+    <div class="game--container">
+        <p id="question-number">
+            Question No : 
+        </p>
+        <span id="question--number_span">
+            1
+        </span>
+        <header class="game--header_question">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore deserunt blanditiis odio neque repudiandae!
+        </header>
+        <p id="your--score">
+            Your score : 
+        </p>
+        <span id="your--score_span">
+            0
+        </span>
+        <div class="answer--btns">
+        <button class="answer--text" id="answer--one">Lorem, ipsum dolor.</button>
+        <button class="answer--text" id="answer--two">Lorem, ipsum.</button>
+        <button class="answer--text" id="answer--three">Lorem ipsum dolor sit.</button>
+        <button class="answer--text" id="answer--four">Lorem ipsum dolor sit amet.</button>
+        </div>
+        <div class="action--btns">
+            <button class="action" id="next-question">
+                Next
+            </button>
+            <button class="action" id="finish-game">
+                Finish
+            </button>
+        </div>
+    </div>
 </body>
 </html>

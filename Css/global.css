@@ -29,9 +29,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10rem auto;
+    margin: 7rem auto;
     font-family: 'Comic Sans Ms';
     font-size: 2rem;
+    overflow-y: hidden;
 
 }
 
