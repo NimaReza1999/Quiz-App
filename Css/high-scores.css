@@ -1,0 +1,53 @@
+:root {
+
+    --color-background: #1C1C1C;
+    --color-primary: #3EB8D4;
+    --color-bg_lighter: #323232;
+    --color-white_used: #FCFCFC;
+    --color-red: #FF5341;
+    --color-secondary: #064958;
+
+
+}
+
+h1 {
+    color: var(--color-white_used);
+}
+
+table {
+    margin: 3rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white_used);
+}
+
+tr {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    
+}
+
+.rank {
+    background-color: var(--color-secondary);
+    border-radius: 1rem;
+}
+
+th,
+td {
+    padding: 2.5rem;
+    background-color: var(--color-bg_lighter);
+}
+
+#home {
+    background-color: var(--color-secondary);
+    width: 40%;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto 0;
+    border-radius: 1rem;
+    color: var(--color-white_used);
+    cursor: pointer;
+}
