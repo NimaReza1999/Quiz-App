@@ -1,3 +1,14 @@
+:root {
+
+    --color-background: #1C1C1C;
+    --color-primary: #3EB8D4;
+    --color-bg_lighter: #323232;
+    --color-white_used: #FCFCFC;
+    --color-red: #FF5341;
+    --color-secondary: #064958;
+
+}
+
 .name--asker {
     margin: 5rem auto 2rem;
     font-size: 1.2rem;
@@ -18,4 +29,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.score {
+    margin: 2rem auto 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    text-align: center;
+    border-radius: 0.8rem;
+}
+
+.action {
+    margin-top: 1.5rem;
 }
