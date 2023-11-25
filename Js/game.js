@@ -13,10 +13,12 @@ const answerList = document.querySelectorAll(".answer--text");
 const scoreCalculator = document.getElementById("your--score_span");
 const questionNo = document.getElementById("question--number_span");
 const finishBtn = document.getElementById("finish-game");
+const level = localStorage.getItem("level") || "medium";
+
 
 
 const CORRECT_BONUS = 10;
-const URL = "https://opentdb.com/api.php?amount=15&difficulty=easy&type=multiple";
+const URL = `https://opentdb.com/api.php?amount=15&difficulty=${level}&type=multiple`;
 
 let formattedData = null;
 let questionIndex = 0;

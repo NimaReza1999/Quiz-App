@@ -10,6 +10,10 @@
 
 }
 
+body {
+    overflow-y: auto;
+}
+
 h1 {
     color: var(--color-white_used);
 }
@@ -33,6 +37,8 @@ tr {
 .rank {
     background-color: var(--color-secondary);
     border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 th,
@@ -50,4 +56,11 @@ td {
     border-radius: 1rem;
     color: var(--color-white_used);
     cursor: pointer;
+    transition: all 0.1s ease-in;
+
+}
+
+#home:hover {
+    background-color: var(--color-primary);
+    transform: scale(1.1);
 }
