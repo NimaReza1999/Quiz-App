@@ -1,0 +1,37 @@
+:root {
+
+    --color-background: #1C1C1C;
+    --color-primary: #3EB8D4;
+    --color-bg_lighter: #323232;
+    --color-white_used: #FCFCFC;
+    --color-red: #FF5341;
+    --color-secondary: #064958;
+
+}
+
+button {
+    background-color: var(--color-secondary);
+    width: 30%;
+    height: 4rem;
+    text-align: center;
+    color: var(--color-white_used);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    margin: 2rem auto;
+}
+
+button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    transform: scale(1.1);
+}
+
+h1 {
+    margin-bottom: 5rem;
+}
+
+#home-btn {
+    background-color: var(--color-primary);
+}
+
